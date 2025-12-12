@@ -5,6 +5,16 @@
   min-height: 200px;
   border-radius: 8px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.greetings {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.user {
+  font-size: 18px;
 }
