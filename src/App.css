@@ -13,6 +13,7 @@
 .greetings {
   font-weight: bold;
   margin-bottom: 10px;
+  font-variant: small-caps;
 }
 
 .user {
