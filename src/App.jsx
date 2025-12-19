@@ -1,15 +1,14 @@
-import './App.css';
-import Greetings from './Greetings';
-import User from './User';
+import React from 'react';
+import Register from './Register';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
-    <>
-      <div className="card">
-        <Greetings />
-        <User name="Botiwin Nay" />
-      </div>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Register />} />
+      </Routes>
+    </Router>
   );
 }
 
